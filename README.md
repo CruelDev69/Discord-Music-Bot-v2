@@ -23,7 +23,7 @@ Type `/help` to see list of commands.
 
 ・Hostable on [__**Heroku.**__](https://www.heroku.com)
 
-・Hostable on [__**Replit.**__](https://replit.com/@V-UNIT/Music-Bot)
+・Hostable on [__**Replit.**__](https://replit.com/@V-UNIT/Discord-Music-Bot-v2)
 ***
 
 <p align="center"><img width="800px" src="https://cdn.discordapp.com/attachments/914513217659756585/1000984452228464640/unknown.png"/></p>
