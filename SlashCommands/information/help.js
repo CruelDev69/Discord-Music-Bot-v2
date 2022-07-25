@@ -24,11 +24,11 @@ module.exports = {
       const Information = new MessageEmbed()
       .setColor('#ff0000')
       .setTitle('ℹ Information')
-      .addField('`$help`', '```js\nFunction: Shows help menu.\nAliases: null.\n```')
-      .addField('`$botinfo`', '```js\nFunction: See Information about bot.\nAliases: info.\n```')
-      .addField('`$ping`', '```js\nFunction: Shows ping.\nAliases: null.\n```')
-      .addField('`$invite`', '```js\nFunction: Gives Invite Link.\nAliases: invite-me.\n```')
-      .addField('`$support`', '```js\nFunction: Gives Support Server Invite Link.\nAliases: null.\n```')
+      .addField('`/help`', '```js\nFunction: Shows help menu.\nAliases: null.\n```')
+      .addField('`/botinfo`', '```js\nFunction: See Information about bot.\nAliases: info.\n```')
+      .addField('`/ping`', '```js\nFunction: Shows ping.\nAliases: null.\n```')
+      .addField('`/invite`', '```js\nFunction: Gives Invite Link.\nAliases: invite-me.\n```')
+      .addField('`/support`', '```js\nFunction: Gives Support Server Invite Link.\nAliases: null.\n```')
       .setFooter({
         text: "Bot made with ♥ by Ahad#3257"
       });
@@ -36,16 +36,16 @@ module.exports = {
       const music = new MessageEmbed()
       .setColor("#8112df")
       .setTitle('📀 Music')
-      .addField('`$play`', '```js\nFunction: Play a Song.\nAliases: p.\n```')
-      .addField('`$skip`', '```js\nFunction: Skips the Song.\nAliases: null.\n```')
-      .addField('`$stop`', '```js\nFunction: Stops the Song.\nAliases: null.\n```')
-      .addField('`$pause`', '```js\nFunction: Pause the Song.\nAliases: null.\n```')
-      .addField('`$resume`', '```js\nFunction: Resume the Song.\nAliases: null.\n```')
-      .addField('`$join`', '```js\nFunction: Joins the voice channel.\nAliases: null.\n```')
-      .addField('`$leave`', '```js\nFunction: Leaves the voice channel.\nAliases: dc, disconnect.\n```')
-      .addField('`$volume`', '```js\nFunction: Sets volume of song.\nAliases: null.\n```')
-      .addField('`$queue`', '```js\nFunction: Shows the queue that is currently being played.\nAliases: q.\n```')
-      .addField('`$loop`', '```js\nFunction: Loops the queue or a song that is currently being played.\nAliases: l.\n```');
+      .addField('`/play`', '```js\nFunction: Play a Song.\nAliases: p.\n```')
+      .addField('`/skip`', '```js\nFunction: Skips the Song.\nAliases: null.\n```')
+      .addField('`/stop`', '```js\nFunction: Stops the Song.\nAliases: null.\n```')
+      .addField('`/pause`', '```js\nFunction: Pause the Song.\nAliases: null.\n```')
+      .addField('`/resume`', '```js\nFunction: Resume the Song.\nAliases: null.\n```')
+      .addField('`/join`', '```js\nFunction: Joins the voice channel.\nAliases: null.\n```')
+      .addField('`/leave`', '```js\nFunction: Leaves the voice channel.\nAliases: dc, disconnect.\n```')
+      .addField('`/volume`', '```js\nFunction: Sets volume of song.\nAliases: null.\n```')
+      .addField('`/queue`', '```js\nFunction: Shows the queue that is currently being played.\nAliases: q.\n```')
+      .addField('`/loop`', '```js\nFunction: Loops the queue or a song that is currently being played.\nAliases: l.\n```');
 
     const components = (state) => [
       new MessageActionRow().addComponents(
